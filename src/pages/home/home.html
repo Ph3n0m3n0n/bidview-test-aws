@@ -1,0 +1,13 @@
+<ion-header >
+  <ion-navbar color="primary">
+    <ion-title>Job List</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list *ngFor="let job of jobList">
+    <ion-item>
+      {{job.id}} {{job.job}}
+    </ion-item>
+  </ion-list>
+</ion-content>

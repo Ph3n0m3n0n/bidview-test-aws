@@ -1,0 +1,1 @@
+This is a test API to go along with this app. This is specifically to test for http requests. Next step is to test actually parsing data from a website and feeding it into the app and get the navigation for that working. Will do that in this test API. 
